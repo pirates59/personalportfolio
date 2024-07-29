@@ -1,28 +1,28 @@
 import {
-    mobile,
+    // mobile,
     backend,
-    creator,
+    // creator,
     web,
     javascript,
-    typescript,
+    // typescript,
     html,
     css,
     reactjs,
-    redux,
+    // redux,
     tailwind,
-    nodejs,
-    mongodb,
+    // nodejs,
+    // mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    // docker,
+    // meta,
+    // starbucks,
+    // tesla,
+    // shopify,
+    // carrent,
+    // jobit,
+    // tripguide,
+    // threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -46,17 +46,17 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Cloud Developer",
+      // icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Frontend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -72,34 +72,34 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -108,17 +108,17 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
       title: "React.js Developer",
       company_name: "Starbucks",
-      icon: starbucks,
+      // icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -131,7 +131,7 @@ import {
     {
       title: "React Native Developer",
       company_name: "Tesla",
-      icon: tesla,
+      // icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
@@ -144,7 +144,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Shopify",
-      icon: shopify,
+      // icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -157,7 +157,7 @@ import {
     {
       title: "Full stack Developer",
       company_name: "Meta",
-      icon: meta,
+      // icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -215,7 +215,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      // image: carrent,
       source_code_link: "https://github.com/",
     },
     {
@@ -236,7 +236,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      // image: jobit,
       source_code_link: "https://github.com/",
     },
     {
@@ -257,7 +257,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      // image: tripguide,
       source_code_link: "https://github.com/",
     },
   ];
