@@ -7,7 +7,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import css from "./tech/css.png";
 import cloud from "./tech/cloud.png";
+import vehicle from "./tech/vehicle.png";
 import figma from "./tech/figma.png";
+import python from "./tech/python.png";
+import django from "./tech/django.png";
 import git from "./tech/git.png";
 import IIC from "./tech/IIC.png";
 import manariddhi from "./tech/manariddhi.png";
@@ -28,12 +31,14 @@ import meta from "./company/meta.png";
 
 export {
   logo,
+  python,
   backend,
   creator,
   IIC,
   manariddhi,
   docker,
   cloud,
+  vehicle,
 
   web,
   github,
@@ -47,6 +52,7 @@ export {
   
 
   reactjs,
+  django,
 
   tailwind,
 
