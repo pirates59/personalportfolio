@@ -19,30 +19,33 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
       [name]: value,
-    });
-  };
+    })
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
+
+
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_ktp95kk',
+        'template_ohwz3hj',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Lenisha",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "lenishaghimire07@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '0ej5RynuB5r0rwX09'
       )
       .then(
         () => {
