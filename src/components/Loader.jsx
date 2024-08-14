@@ -1,7 +1,16 @@
 import { Html, useProgress } from "@react-three/drei";
+import { useState, useEffect } from "react";
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
+  const [displayProgress, setDisplayProgress] = useState(progress);
+
+  useEffect(() => {
+    if (progress !== 80 && progress !== 90) {
+      setDisplayProgress(progress);
+    }
+  }, [progress]);
+
   return (
     <Html
       as='div'
@@ -22,7 +31,7 @@ const CanvasLoader = () => {
           marginTop: 40,
         }}
       >
-        {progress.toFixed(2)}%
+        {displayProgress.toFixed(2)}%
       </p>
     </Html>
   );
